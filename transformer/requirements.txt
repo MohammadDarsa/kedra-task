@@ -1,0 +1,5 @@
+python-dotenv
+pymongo
+minio
+beautifulsoup4
+lxml

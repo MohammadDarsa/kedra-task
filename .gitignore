@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+
+# Virtual Environments
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Docker (Optional - un-comment if you don't want logs/volumes in git)
+# docker-compose.override.yml
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Project Specific
+airflow/logs/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+airflow/dags/__pycache__/

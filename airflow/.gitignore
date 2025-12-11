@@ -1,0 +1,17 @@
+# Airflow logs
+logs/
+
+# Airflow PID file
+airflow-webserver.pid
+
+# Database
+airflow.db
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS specific
+.DS_Store

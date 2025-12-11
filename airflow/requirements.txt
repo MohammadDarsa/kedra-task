@@ -1,0 +1,9 @@
+scrapy
+pymongo
+boto3
+requests
+python-dotenv
+minio
+beautifulsoup4
+lxml
+apache-airflow-providers-fab
