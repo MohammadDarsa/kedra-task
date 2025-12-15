@@ -20,7 +20,7 @@ class MongoService:
                 "$addFields": {
                     "date_obj": {
                         "$dateFromString": {
-                            "dateString": "$published_date",
+                            "dateString": {"$trim": {"input": "$published_date"}},
                             "format": "%d/%m/%Y",
                             "onError": None,
                             "onNull": None

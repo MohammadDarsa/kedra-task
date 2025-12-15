@@ -27,7 +27,7 @@ class MongoPipeline:
         
         update_op = {
             '$addToSet': {'body_filters': {'$each': body_filters}},
-            '$setOnInsert': item_dict
+            '$set': item_dict
         }
 
         if item_dict.get('ref_number'):

@@ -5,6 +5,7 @@ from datetime import datetime
 from src.services.mongo_service import MongoService
 from src.services.minio_service import MinioService
 from src.utils.utils import process_html_content, calculate_hash
+from src.settings import Settings
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
